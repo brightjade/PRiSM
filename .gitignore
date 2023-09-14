@@ -1,0 +1,12 @@
+__pycache__/
+.cache/
+.empty/
+.checkpoints/
+.ipynb_checkpoints/
+.logs/
+data*/
+wandb/
+*.out
+*.png
+*.txt
+*.yaml
