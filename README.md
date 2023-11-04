@@ -1,6 +1,6 @@
 # PRiSM
 
-Source code for our *Findings of IJCNLP-AACL 2023* paper <a href="https://github.com/brightjade/PRiSM" target="_blank">PRiSM: Enhancing Low-Resource Document-Level Relation Extraction with Relation-Aware Score Calibration</a>.
+Source code for our *Findings of IJCNLP-AACL 2023* paper [PRiSM: Enhancing Low-Resource Document-Level Relation Extraction with Relation-Aware Score Calibration](https://arxiv.org/abs/2309.13869).
 
 ## Requirements
 
@@ -14,7 +14,7 @@ Source code for our *Findings of IJCNLP-AACL 2023* paper <a href="https://github
 
 ## Datasets
 
-Datasets can be downloaded here: <a href="https://drive.google.com/drive/folders/1c5-0YwnoJx8NS6CV2f-NoTHR__BdkNqw" target="_blank">DocRED</a>, <a href="https://github.com/tonytan48/Re-DocRED" target="_blank">Re-DocRED</a>, <a href="https://github.com/klimzaporojets/DWIE/" target="_blank">DWIE</a>. The expected structure of files is:
+Datasets can be downloaded here: [DocRED](https://drive.google.com/drive/folders/1c5-0YwnoJx8NS6CV2f-NoTHR__BdkNqw), [Re-DocRED](https://github.com/tonytan48/Re-DocRED), [DWIE](https://github.com/klimzaporojets/DWIE). The expected structure of files is:
 
 ```
 [working directory]
@@ -56,26 +56,25 @@ Evaluate the model with the following command:
 ```bash
 >> bash scripts/evaluate.sh
 ```
-<!-- 
+
 ## Citation
 
 If you make use of this code in your work, please kindly cite our paper:
 
 ```bibtex
 @inproceedings{choi2023prism,
-               title={PRiSM: Enhancing Low-Resource Document-Level Relation Extraction with Relation-Aware Score Calibration},
                author={Choi, Minseok and Lim, Hyesu and Choo, Jaegul},
-               booktitle={Findings of the Association for Computational Linguistics: AACL-IJCNLP 2023},
-               month=nov,
+               title={P{R}i{S}{M}: Enhancing Low-Resource Document-Level Relation Extraction with Relation-Aware Score Calibration},
+               booktitle={Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics},
+               month={November},
                year={2023},
-               address="Bali, Indonesia",
-               publisher="Association of Computational Linguistics",
-               url="",
-               pages="",
-               abstract=""
+               address={Nusa Dua, Bali},
+               publisher={Association for Computational Linguistics},
+               pages={39--47},
+               url={https://aclanthology.org/2023.findings-ijcnlp.4}
 }
 ```
 
 ## Acknowledgements
 
-This work was supported by ... -->
+This work was supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No.2019-0-00075, Artificial Intelligence Graduate School Program (KAIST)), the National Supercomputing Center with supercomputing resources including technical support (KSC-2022-CRE-0312), and Samsung Electronics Co., Ltd.
